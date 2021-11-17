@@ -30,7 +30,8 @@ async function pegaArquivo(caminhoDoArquivo) {
   }
 }
 
-pegaArquivo('./arquivos/texto1.md')
+module.exports = pegaArquivo
+//pegaArquivo('./arquivos/texto1.md')
 
 // function pegaArquivo(caminhoDoArquivo) {
 //   const encoding = 'utf-8'
