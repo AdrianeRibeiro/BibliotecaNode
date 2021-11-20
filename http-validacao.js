@@ -1,5 +1,4 @@
 const fetch = require('node-fetch')
-//import fetch from 'node-fetch'
 
 async function checaStatus(arrayLinks) {
   const arrayStatus = await Promise.all(arrayLinks.map(async url => {
